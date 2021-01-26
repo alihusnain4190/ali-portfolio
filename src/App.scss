@@ -1,0 +1,19 @@
+@import "./style/global.scss";
+.App {
+  // margin: auto;
+  display: flex;
+  // justify-content: flex-start;
+  // text-align: center;
+  .aside {
+    border: 1px solid black;
+    width: 25%;
+  }
+  .landing {
+    border: 1px solid black;
+    width: 70%;
+  }
+  .about {
+    width: 75%;
+    border: 1px solid black;
+  }
+}
