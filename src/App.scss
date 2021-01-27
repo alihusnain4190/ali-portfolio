@@ -1,19 +1,203 @@
 @import "./style/global.scss";
+@import "./style/color.scss";
+@import "./style/button.scss";
 .App {
-  // margin: auto;
-  display: flex;
-  // justify-content: flex-start;
-  // text-align: center;
+  margin: 2rem;
+
   .aside {
-    border: 1px solid black;
-    width: 25%;
+    width: 210px;
+    position: fixed;
+    z-index: 1;
+    // top: 20px;
+    // left: 10px;
+    background: $aside-color;
+    overflow-x: hidden;
+    padding: 8px 0;
+    height: 100%;
+    color: $text-color;
+    &__name {
+      margin-top: 2rem;
+      font-size: 13px;
+      text-align: center;
+      .aside__p {
+        margin-top: 1rem;
+      }
+      .aside__name__line {
+        margin-top: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+      }
+    }
+    &__list {
+      .aside__ul {
+        margin: 1rem;
+        .aside__li {
+          color: $text-color;
+          margin: 1rem;
+          i {
+            margin: 10px;
+            // color: $text-color;
+            color: $icons-color;
+          }
+        }
+      }
+    }
+    &__social {
+      margin: 1.4rem;
+      .aside__ul {
+        display: flex;
+        justify-content: space-evenly;
+        li {
+          cursor: pointer;
+          color: $icons-color;
+        }
+      }
+    }
   }
   .landing {
-    border: 1px solid black;
-    width: 70%;
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    .landing__wrapper {
+      position: fixed;
+      left: 40%;
+      color: $aside-color;
+      .landing__image {
+        width: 250px;
+        height: 250px;
+        border-radius: 50%;
+        margin-top: 5rem;
+      }
+      .landing__social {
+        .aside__ul {
+          display: flex;
+          justify-content: flex-start;
+          li {
+            margin: 10px;
+            cursor: pointer;
+            color: $btn-color;
+          }
+        }
+      }
+    }
   }
   .about {
-    width: 75%;
-    border: 1px solid black;
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+
+    color: $text-color;
+    &__wrapper {
+      margin-top: 2rem;
+
+      .about__h1 {
+        font-family: "Courier New", Courier, monospace;
+      }
+      .about__p {
+        margin-top: 2rem;
+        font-size: 20px;
+      }
+      .about__qoute__wrapper {
+        margin-top: 3rem;
+        border: 2px dashed $icons-color;
+        .about__qoute__p {
+          font-family: "Courier New", Courier, monospace;
+          font-size: 18px;
+          padding: 10px;
+        }
+      }
+    }
+  }
+  .projects {
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    img {
+      border-radius: 10px;
+      width: 300px;
+      margin: auto;
+      height: 250px;
+    }
+    p {
+      font-size: 16px;
+    }
+    .project__wrapper {
+      .project__charity {
+        margin-top: 1rem;
+        display: flex;
+        .charity__text {
+          background-color: $aside-color;
+          display: flex;
+          margin-left: 1.5rem;
+          flex-direction: column;
+
+          border-radius: 10px;
+          h4 {
+            color: $text-color;
+            margin-top: 10px;
+            margin-left: 10px;
+          }
+          p {
+            margin-left: 10px;
+            color: $text-color;
+            margin-top: 10px;
+          }
+
+          .project__list {
+            margin-left: 10px;
+            margin-top: 10px;
+            display: flex;
+            justify-content: flex-start;
+            li {
+              margin: 2px;
+              font-size: 15px;
+            }
+          }
+          i {
+            color: $icons-color;
+            margin-top: 10px;
+            margin-left: 10px;
+          }
+        }
+      }
+    }
+  }
+  .skills {
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    .skill__frontend__wrapper {
+      h3 {
+        color: $icons-color;
+      }
+
+      .skill__frontend {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        img {
+          border-radius: 10px;
+          width: 150px;
+        }
+      }
+    }
+    .skill__backend__wrapper {
+      h3 {
+        color: $icons-color;
+      }
+      .skill__backend {
+        display: flex;
+        justify-content: space-evenly;
+        text-align: center;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+        img {
+          border-radius: 10px;
+          width: 150px;
+        }
+      }
+    }
   }
 }

@@ -1,0 +1,19 @@
+@import "color.scss";
+.btn {
+  display: inline-block;
+
+  text-decoration: none;
+  text-align: center;
+  border: none;
+}
+.btn__about {
+  padding: 8px 12px;
+  border-radius: 6px;
+  background-color: $btn-color;
+  color: $text-color;
+  transition: 2s;
+  font-size: 10px;
+}
+.btn__about:hover {
+  background-color: #061722;
+}
