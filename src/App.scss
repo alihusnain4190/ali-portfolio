@@ -34,6 +34,9 @@
         .aside__li {
           color: $text-color;
           margin: 1rem;
+          a {
+            text-decoration: none;
+          }
           i {
             margin: 10px;
             // color: $text-color;
@@ -50,6 +53,11 @@
         li {
           cursor: pointer;
           color: $icons-color;
+          a {
+            i {
+              color: $icons-color;
+            }
+          }
         }
       }
     }
@@ -67,6 +75,13 @@
         height: 250px;
         border-radius: 50%;
         margin-top: 5rem;
+      }
+      h1,
+      p {
+        color: $text-color;
+      }
+      i {
+        color: $icons-color;
       }
       .landing__social {
         .aside__ul {
@@ -122,16 +137,17 @@
       font-size: 16px;
     }
     .project__wrapper {
-      .project__charity {
+      .project {
         margin-top: 1rem;
+        background-color: #2e577f;
         display: flex;
-        .charity__text {
-          background-color: $aside-color;
+
+        border-radius: 10px;
+        .project__text {
           display: flex;
           margin-left: 1.5rem;
           flex-direction: column;
 
-          border-radius: 10px;
           h4 {
             color: $text-color;
             margin-top: 10px;
@@ -149,6 +165,7 @@
             display: flex;
             justify-content: flex-start;
             li {
+              color: $text-color;
               margin: 2px;
               font-size: 15px;
             }
@@ -162,11 +179,47 @@
       }
     }
   }
+  .contacts {
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    h1 {
+      color: $primary-color;
+    }
+    .contact {
+      margin-top: 2rem;
+      i {
+        text-align: center;
+        width: 45px;
+        padding-top: 2px;
+        height: 35px;
+        align-items: center;
+        border-radius: 10px;
+        background-color: $primary-color;
+        color: $icons-color;
+      }
+
+      i:hover {
+        background-color: $text-color;
+        color: $primary-color;
+      }
+      .contact__a {
+        color: $icons-color;
+        text-decoration: none;
+        margin-left: 2rem;
+      }
+      .contact__a:hover {
+        color: $text-color;
+      }
+    }
+  }
   .skills {
     margin-left: 220px; /* Same width as the sidebar + left position in px */
     font-size: 28px; /* Increased text to enable scrolling */
     padding: 0px 10px;
     .skill__frontend__wrapper {
+      border-radius: 10px;
+      background-color: #2e577f;
       h3 {
         color: $icons-color;
       }
@@ -184,6 +237,7 @@
       }
     }
     .skill__backend__wrapper {
+      background-color: #2e577f;
       h3 {
         color: $icons-color;
       }
@@ -199,5 +253,11 @@
         }
       }
     }
+  }
+  .error {
+    margin-left: 220px; /* Same width as the sidebar + left position in px */
+    font-size: 28px; /* Increased text to enable scrolling */
+    padding: 0px 10px;
+    color: $text-color;
   }
 }

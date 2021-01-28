@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "@reach/router";
+import pdf from "../documents/ali.pdf";
 const NavBar = () => {
   return (
     <aside className="aside">
@@ -32,29 +33,42 @@ const NavBar = () => {
               <i class="far fa-file"></i>Project
             </li>
           </Link>
-          <Link to="contact" style={{ textDecoration: "none" }}>
+          <Link to="contacts" style={{ textDecoration: "none" }}>
             <li className="aside__li">
               <i class="far fa-address-card"></i>Contact
             </li>
           </Link>
-          <Link to="resume" style={{ textDecoration: "none" }}>
-            <li className="aside__li">
-              <i class="far fa-file"></i> Resume
-            </li>
-          </Link>
+          {/* <Link to="resume" style={{ textDecoration: "none" }}> */}
+          <li className="aside__li">
+            <i class="far fa-file"></i>
+            <a
+              href={pdf}
+              target="_blank"
+              style={{ textDecoration: "none", color: "#fff" }}
+            >
+              Resume
+            </a>
+          </li>
+          {/* </Link> */}
         </ul>
       </div>
       <div className="aside__social">
         <ul className="aside__ul">
           <li>
-            <i class="fab fa-github"></i>
+            <a href="https://github.com/alihusnain4190">
+              <i class="fab fa-github"></i>
+            </a>
           </li>
 
           <li>
-            <i class="fab fa-twitter"></i>
+            <a href="https://twitter.com/AliHusn89821590">
+              <i class="fab fa-twitter"></i>
+            </a>
           </li>
           <li>
-            <i class="fab fa-linkedin-in"></i>
+            <a href="https://www.linkedin.com/in/ali-husnain-94a13a1b8/">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
           </li>
         </ul>
       </div>

@@ -57,9 +57,15 @@ const Skills = () => {
             <img src={graph} alt="no image "></img>
             <p>GraphQL</p>
           </div>
-          <div>
-            <img src={visualstudio} alt="no image "></img>
-            <p>VisualStudio</p>
+        </div>
+        <div className="skill__backend__wrapper">
+          <h3 className="skill__h3">Other</h3>
+          <hr></hr>
+          <div className="skill__backend">
+            <div>
+              <img src={visualstudio} alt="no image "></img>
+              <p>VisualStudio</p>
+            </div>
           </div>
         </div>
       </div>

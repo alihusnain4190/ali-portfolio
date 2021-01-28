@@ -7,20 +7,24 @@ const Landing = () => {
       <div className="landing__wrapper">
         <img className="landing__image" src={ali} alt="ali image" />
         <h1>Hy I am Ali husnain</h1>
-        <p>
-          I am junior web developer looking for new role i complete my bootcamp{" "}
-        </p>
+        <p>I am junior web developer!</p>
         <div className="landing__social">
           <ul className="aside__ul">
             <li>
-              <i class="fab fa-github"></i>
+              <a href="https://github.com/alihusnain4190">
+                <i class="fab fa-github"></i>
+              </a>
             </li>
 
             <li>
-              <i class="fab fa-twitter"></i>
+              <a href="https://twitter.com/AliHusn89821590">
+                <i class="fab fa-twitter"></i>
+              </a>
             </li>
             <li>
+               <a href="https://www.linkedin.com/in/ali-husnain-94a13a1b8/">
               <i class="fab fa-linkedin-in"></i>
+              </a>
             </li>
           </ul>
         </div>
