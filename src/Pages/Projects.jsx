@@ -37,8 +37,12 @@ const Projects = () => {
               <li>Firebase</li>
             </ul>
             <div>
-              <i class="fab fa-github"></i>
-              <i class="fas fa-desktop"></i>
+              <a href="https://github.com/alihusnain4190/fe-charity-bay">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://charity-bay.netlify.app/">
+                <i class="fas fa-desktop"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -62,9 +66,12 @@ const Projects = () => {
               <li></li>
             </ul>
             <div>
-              <i class="fab fa-github"></i>
-
-              <i class="fas fa-desktop"></i>
+              <a href="https://github.com/alihusnain4190/nc_news">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://nc-student-news.netlify.app/">
+                <i class="fas fa-desktop"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -85,8 +92,12 @@ const Projects = () => {
               <li>Sass</li>
             </ul>
             <div>
-              <i class="fab fa-github" ></i>
-              <i class="fas fa-desktop"></i>
+              <a href="https://github.com/alihusnain4190/std_tracker">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://aliz-student.netlify.app/">
+                <i class="fas fa-desktop"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -107,9 +118,12 @@ const Projects = () => {
               <li>Open Weather API</li>
             </ul>
             <div>
-              <i class="fab fa-github"></i>
-
-              <i class="fas fa-desktop"></i>
+              <a href="https://github.com/alihusnain4190/fe-react-data-visualisation/tree/master/weather-app">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://aliz-weather-app.netlify.app/">
+                <i class="fas fa-desktop"></i>
+              </a>
             </div>
           </div>
         </div>
@@ -126,13 +140,17 @@ const Projects = () => {
             <ul className="project__list">
               <li>React</li>
               <li>React Router</li>
+              <li>React Charts</li>
               <li>CSS</li>
               <li>Sass</li>
             </ul>
             <div>
-              <i class="fab fa-github"></i>
-
-              <i class="fas fa-desktop"></i>
+              <a href="https://github.com/alihusnain4190/catwiki">
+                <i class="fab fa-github"></i>
+              </a>
+              <a href="https://aliz-cat.netlify.app/">
+                <i class="fas fa-desktop"></i>
+              </a>
             </div>
           </div>
         </div>
