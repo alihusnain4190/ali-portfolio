@@ -6,7 +6,7 @@
 }
 body {
   // #2e577f
-  background-color: #00618B;
+  background-color: #00618b;
   font-family: sans-serif;
   font-weight: 500;
 }
@@ -14,4 +14,12 @@ li {
   text-decoration: none;
   list-style: none;
 }
-
+i {
+}
+i:hover {
+  color: yellow;
+  width: 30px;
+  border-radius: 5px;
+  background-color: $aside-color;
+  transform: rotate(20deg);
+}
