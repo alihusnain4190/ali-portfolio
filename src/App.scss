@@ -5,16 +5,40 @@
   margin: 2rem;
 
   .aside {
-    width: 210px;
-    position: fixed;
-    z-index: 1;
-    // top: 20px;
-    // left: 10px;
-    background: $aside-color;
-    overflow-x: hidden;
-    padding: 8px 0;
-    height: 100%;
-    color: $text-color;
+    // width: 210px;
+    // position: fixed;
+    // z-index: 1;
+    // background: $aside-color;
+    // overflow-x: hidden;
+    // padding: 8px 0;
+    // height: 100%;
+    // color: $text-color;
+
+    .menu-bars {
+      font-size: 2rem;
+      background: none;
+    }
+    .nav-menu {
+      background-color: #060b26;
+      width: 250px;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      position: fixed;
+      top: 0;
+      left: -100%;
+      transition: 850ms;
+    }
+
+    .nav-menu.active {
+      left: 0;
+      transition: 350ms;
+    }
+
+    .navbar-toggle {
+      color: $text-color;
+      margin-top: 2rem;
+    }
     &__name {
       margin-top: 2rem;
       font-size: 13px;
@@ -32,6 +56,7 @@
       .aside__ul {
         margin: 1rem;
         .aside__li {
+          transition: transform 0.4s;
           color: $text-color;
           margin: 1rem;
           a {
