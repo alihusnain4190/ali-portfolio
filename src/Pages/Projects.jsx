@@ -51,9 +51,10 @@ const Projects = () => {
           <div className="project__text">
             <h4>NC Student</h4>
             <p>
-              It is a charity web based applcation where user can sell and buy
-              items after login into website.Developed over two weeks with 4
-              team members. it was our final project in NorthCoder BootCamp.
+              It is a student blog website where student can comment againts the
+              articles.Admin write Articles, he can also delete and uppade their
+              articles and comments.I write a code for backend and also front
+              end.i used these tech list is below.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -80,9 +81,10 @@ const Projects = () => {
           <div className="project__text">
             <h4>Student Tracker</h4>
             <p>
-              It is a charity web based applcation where user can sell and buy
-              items after login into website.Developed over two weeks with 4
-              team members. it was our final project in NorthCoder BootCamp.
+              Student tracker website to keep the record of students journey
+              through the course. You can see details of all students, gradute
+              student history and also you can see students according to blocks
+              .i used these tech list is below
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -106,9 +108,10 @@ const Projects = () => {
           <div className="project__text">
             <h4>Weather App</h4>
             <p>
-              It is a charity web based applcation where user can sell and buy
-              items after login into website.Developed over two weeks with 4
-              team members. it was our final project in NorthCoder BootCamp.
+              weather app is react single page app. where user can find
+              temperature and forcast details of current day after enter their
+              city and he can also see the graph of temperature and wind of day.
+              i used Open weather api .
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -116,6 +119,7 @@ const Projects = () => {
               <li>CSS</li>
               <li>Axios</li>
               <li>Open Weather API</li>
+              <li>React-charts-js </li>
             </ul>
             <div>
               <a href="https://github.com/alihusnain4190/fe-react-data-visualisation/tree/master/weather-app">
@@ -132,9 +136,10 @@ const Projects = () => {
           <div className="project__text">
             <h4>Charity Bay</h4>
             <p>
-              It is a charity web based applcation where user can sell and buy
-              items after login into website.Developed over two weeks with 4
-              team members. it was our final project in NorthCoder BootCamp.
+              It is a web based cats app.Where user can see most populer cats.
+              This application/site was created as a submission to a
+              <a href="">DevChallenges</a> challenge. The challenge was to build
+              an application to complete the given user stories.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
