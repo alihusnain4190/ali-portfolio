@@ -15,6 +15,7 @@ import graph from "../img/graph.png";
 const Skills = () => {
   return (
     <main className="skills">
+      <h1 className="h1">SKILLS</h1>
       <div className="skill__frontend__wrapper">
         <h3>Frontend </h3>
         <hr></hr>

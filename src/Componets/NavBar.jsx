@@ -10,15 +10,15 @@ const NavBar = () => {
   return (
     <>
       <aside className="aside">
-        <Link to='' className="menu-bars">
-          <FaIcons.FaBars onClick={showSidebar} />
-        </Link>
+        {/* <Link to="" className="menu-bars"> */}
+        <FaIcons.FaBars className="menu-bars" onClick={showSidebar} />
+        {/* </Link> */}
         <nav className={sidebar ? "nav-menu active" : "nav-menu"}>
           <ul className="nav-menu-items" onClick={showSidebar}>
             <li className="navbar-toggle">
-              <Link to="#" className="menu-bars">
-                <AiIcons.AiOutlineClose />
-              </Link>
+              {/* <Link to="#" className="menu-bars"> */}
+              <AiIcons.AiOutlineClose className="menu-bars" />
+              {/* </Link> */}
             </li>
             <li className="navbar-toggle">
               <div className="aside__name">

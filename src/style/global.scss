@@ -14,7 +14,8 @@ li {
   text-decoration: none;
   list-style: none;
 }
-i {
+.h1 {
+  color: $text-color;
 }
 i:hover {
   color: yellow;

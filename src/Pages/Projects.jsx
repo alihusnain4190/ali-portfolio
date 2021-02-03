@@ -12,7 +12,7 @@ const Projects = () => {
   };
   return (
     <main className="projects">
-      <h1>PROJECTS</h1>
+      <h1 className="h1">PROJECTS</h1>
       <div className="project__wrapper">
         <div className="project">
           <img src={charity} alt="no image"></img>

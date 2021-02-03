@@ -6,7 +6,7 @@ const Landing = () => {
     <section className="landing">
       <div className="landing__wrapper">
         <img className="landing__image" src={ali} alt="ali image" />
-        <h1>Hy I am Ali husnain</h1>
+        <h1 className="h1">Hy I am Ali husnain</h1>
         <p>I am junior web developer!</p>
         <div className="landing__social">
           <ul className="aside__ul">
