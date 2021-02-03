@@ -1,11 +1,7 @@
-@import "./style/global.scss";
-@import "./style/color.scss";
-@import "./style/button.scss";
-@import "./style/phone.scss";
-@import "./style/tablet.scss";
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 760px) {
   .App {
-    margin: 2rem;
+    margin: 1.4rem;
+
     .aside {
       // width: 210px;
       // position: fixed;
@@ -15,16 +11,17 @@
       // padding: 8px 0;
       // height: 100%;
       // color: $text-color;
-
       .menu-bars {
         font-size: 2rem;
         background: none;
       }
       .nav-menu {
-        background-color: #060b26;
+        background-color: $aside-color;
         width: 250px;
+        z-index: 1;
         height: 100vh;
         display: flex;
+        overflow: hidden;
         justify-content: center;
         position: fixed;
         top: 0;
@@ -39,11 +36,11 @@
 
       .navbar-toggle {
         color: $text-color;
-        margin-top: 2rem;
+        margin-top: 1rem;
       }
       &__name {
-        margin-top: 2rem;
-        font-size: 13px;
+        margin-top: 1rem;
+        font-size: 20px;
         text-align: center;
         .aside__p {
           margin-top: 1rem;
@@ -58,6 +55,7 @@
         .aside__ul {
           margin: 1rem;
           .aside__li {
+            font-size: 20px;
             transition: transform 0.4s;
             color: $text-color;
             margin: 1rem;
@@ -73,7 +71,7 @@
         }
       }
       &__social {
-        margin: 1.4rem;
+        margin: 2rem;
         .aside__ul {
           display: flex;
           justify-content: space-evenly;
@@ -91,11 +89,14 @@
     }
     .landing {
       margin-left: 220px; /* Same width as the sidebar + left position in px */
-      font-size: 28px; /* Increased text to enable scrolling */
+      font-size: 26px; /* Increased text to enable scrolling */
       padding: 0px 10px;
+      .h1 {
+        color: $text-color;
+      }
       .landing__wrapper {
         position: fixed;
-        left: 40%;
+        left: 30%;
         color: $aside-color;
         .landing__image {
           width: 250px;
@@ -124,24 +125,32 @@
       }
     }
     .about {
-      margin-left: 220px; /* Same width as the sidebar + left position in px */
+      margin-left: 100px; /* Same width as the sidebar + left position in px */
       font-size: 28px; /* Increased text to enable scrolling */
       padding: 0px 10px;
 
       color: $text-color;
+      .h1 {
+        color: $text-color;
+      }
       &__wrapper {
-        margin-top: 2rem;
+        margin-top: 1rem;
 
         .about__h1 {
           font-family: "Courier New", Courier, monospace;
         }
         .about__p {
-          margin-top: 2rem;
+          margin-top: 1rem;
           font-size: 20px;
+          line-height: 1.5;
+        }
+        .about__span {
+          color: $icons-color;
+          font-size: 16px;
         }
         .about__qoute__wrapper {
           margin-top: 3rem;
-          border: 2px dashed $icons-color;
+          border: 5px dashed $icons-color;
           .about__qoute__p {
             font-family: "Courier New", Courier, monospace;
             font-size: 18px;
@@ -151,14 +160,18 @@
       }
     }
     .projects {
-      margin-left: 220px; /* Same width as the sidebar + left position in px */
+      margin-top: 1rem;
+      margin-left: 90px; /* Same width as the sidebar + left position in px */
       font-size: 28px; /* Increased text to enable scrolling */
       padding: 0px 10px;
+      .h1 {
+        color: $text-color;
+      }
       img {
-        border-radius: 10px;
-        width: 300px;
+        border-radius: 5px;
+        width: 200px;
         margin: auto;
-        height: 250px;
+        height: 200px;
       }
       p {
         font-size: 16px;
@@ -172,29 +185,33 @@
           border-radius: 10px;
           .project__text {
             display: flex;
-            margin-left: 1.5rem;
+            margin-left: 1rem;
             flex-direction: column;
 
             h4 {
+              font-size: 16px;
               color: $text-color;
               margin-top: 10px;
-              margin-left: 10px;
+              margin-left: 2px;
             }
             p {
-              margin-left: 10px;
+              margin-left: 2px;
               color: $text-color;
+              word-wrap: break-word;
               margin-top: 10px;
             }
 
             .project__list {
-              margin-left: 10px;
+              margin-left: 6px;
               margin-top: 10px;
               display: flex;
               justify-content: flex-start;
+              flex-wrap: wrap;
+
               li {
                 color: $text-color;
                 margin: 2px;
-                font-size: 15px;
+                font-size: 16px;
               }
             }
             i {
@@ -207,11 +224,14 @@
       }
     }
     .contacts {
-      margin-left: 220px; /* Same width as the sidebar + left position in px */
+      margin-left: 100px; /* Same width as the sidebar + left position in px */
       font-size: 28px; /* Increased text to enable scrolling */
       padding: 0px 10px;
       h1 {
         color: $primary-color;
+      }
+      .h1 {
+        color: $text-color;
       }
       .contact {
         margin-top: 2rem;
@@ -241,13 +261,14 @@
       }
     }
     .skills {
-      margin-left: 220px; /* Same width as the sidebar + left position in px */
+      margin-left: 100px; /* Same width as the sidebar + left position in px */
       font-size: 28px; /* Increased text to enable scrolling */
       padding: 0px 10px;
       .skill__frontend__wrapper {
-        border-radius: 10px;
+        border-radius: 8px;
         background-color: #2e577f;
         h3 {
+          margin-top: 1rem;
           color: $icons-color;
         }
 
@@ -258,8 +279,10 @@
           flex-wrap: wrap;
           margin-top: 1rem;
           img {
+            margin-left: 6px;
             border-radius: 10px;
-            width: 150px;
+            width: 140px;
+            color: $text-color;
           }
         }
       }
@@ -275,8 +298,9 @@
           flex-wrap: wrap;
           margin-top: 1rem;
           img {
+            margin-left: 6px;
             border-radius: 10px;
-            width: 150px;
+            width: 140px;
           }
         }
       }
@@ -286,6 +310,9 @@
       font-size: 28px; /* Increased text to enable scrolling */
       padding: 0px 10px;
       color: $text-color;
+      img {
+        width: 300px;
+      }
     }
   }
 }
