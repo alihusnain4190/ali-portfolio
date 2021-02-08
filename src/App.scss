@@ -17,6 +17,7 @@
       // color: $text-color;
 
       .menu-bars {
+        position: fixed;
         font-size: 2rem;
         background: none;
       }
@@ -138,6 +139,10 @@
         .about__p {
           margin-top: 2rem;
           font-size: 20px;
+        }
+         .about__span {
+          color: $icons-color;
+          font-size:1.8rem;
         }
         .about__qoute__wrapper {
           margin-top: 3rem;

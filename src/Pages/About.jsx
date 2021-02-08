@@ -7,7 +7,7 @@ const About = () => {
         <h1 className="h1"> About!</h1>
         <p className="about__p">
           After completing my degree in
-          <span className="about__span"> Computer Science</span> I did a six
+          <span className="about__span"> Computer Science</span>. I did a six
           month internship in{" "}
           <span className="about__span">C# (unity-software)</span> in 2016.
           After this I had an opportunity to start working as a{" "}
@@ -21,7 +21,7 @@ const About = () => {
           warehouse operative in music magpie always with the hope to restart my
           career in IT. At the start of 2020 I was able to make this happen, I
           started Bootcamp with
-          <span className="about__span">Northcoders</span> . I am looking
+          <span className="about__span"> Northcoders</span> . I am looking
           forward to a career in web developer.
         </p>
         <div className="about__qoute__wrapper">

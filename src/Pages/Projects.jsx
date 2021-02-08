@@ -19,10 +19,11 @@ const Projects = () => {
           <div className="project__text">
             <h4>Charity Bay</h4>
             <p>
-              It is a charity web based applcation where user can sell and buy
-              items after login into website.Developed over two weeks with 4
-              team members. it was our final project in NorthCoder BootCamp. i
-              contribute both in front-end and back-end.Tech we used like below.
+              It is a charity web based applcation. After login into website
+              seller can donate their item to givin charity and buyer can buy
+              item and donate thier money to charity.We Developed in two weeks
+              with 4 team members. it was our final project in BootCamp. I
+              contribute both in front-end and back-end..
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -32,6 +33,7 @@ const Projects = () => {
               <li>Styled Component</li>
               <li>Express</li>
               <li>POSTgreql</li>
+              <li>Knex</li>
               <li>Jest</li>
               <li>Amazon aws</li>
               <li>Firebase</li>
@@ -51,10 +53,10 @@ const Projects = () => {
           <div className="project__text">
             <h4>NC Student</h4>
             <p>
-              It is a student blog website where student can comment againts the
-              articles.Admin write Articles, he can also delete and uppade their
-              articles and comments.I write a code for backend and also front
-              end.i used these tech list is below.
+              It is a student news website.where students can read, sort article
+              by name and topics and write comments against article. Admin can
+              delete student comments and also he can like and dislike their
+              comments and also delete it.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -82,9 +84,9 @@ const Projects = () => {
             <h4>Student Tracker</h4>
             <p>
               Student tracker website to keep the record of students journey
-              through the course. You can see details of all students, gradute
-              student history and also you can see students according to blocks
-              .i used these tech list is below
+              through the course. Where i can see details of all
+              students,history of gradute students and also you can see students
+              according to blocks.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -108,10 +110,10 @@ const Projects = () => {
           <div className="project__text">
             <h4>Weather App</h4>
             <p>
-              weather app is react single page app. where user can find
-              temperature and forcast details of current day after enter their
-              city and he can also see the graph of temperature and wind of day.
-              i used Open weather api .
+              It is react single page app. where user can see temperature and
+              forcast details of current day after enter their city and he can
+              also see the graph of temperature and wind of day. i used Open
+              weather api .
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -137,8 +139,8 @@ const Projects = () => {
             <h4>Charity Bay</h4>
             <p>
               It is a web based cats app.Where user can see most populer cats.
-              This application/site was created as a submission to a
-              <a href="">DevChallenges</a> challenge. The challenge was to build
+              This application/site was created as a submission to a 
+              <a href=""> DevChallenges </a> challenge. The challenge was to build
               an application to complete the given user stories.
             </p>
             <h4>Tech</h4>
