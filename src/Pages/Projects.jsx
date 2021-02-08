@@ -19,11 +19,11 @@ const Projects = () => {
           <div className="project__text">
             <h4>Charity Bay</h4>
             <p>
-              It is a charity web based applcation. After login into website
-              seller can donate their item to givin charity and buyer can buy
-              item and donate thier money to charity.We Developed in two weeks
-              with 4 team members. it was our final project in BootCamp. I
-              contribute both in front-end and back-end..
+              It is a charity web based applcation. After loggin into the
+              website the seller can donate the item and the buyer can buy items
+              and donate thier money to charity.I Developed this project in two
+              weeks with 4 team members. It was my final project in BootCamp. I
+              contributed in the front-end and back-end development.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -53,10 +53,9 @@ const Projects = () => {
           <div className="project__text">
             <h4>NC Student</h4>
             <p>
-              It is a student news website.where students can read, sort article
-              by name and topics and write comments against article. Admin can
-              delete student comments and also he can like and dislike their
-              comments and also delete it.
+              It is a student news website, where students can read, sort
+              articles by name or topic and write comments against the article.
+              The admin can remove student comments.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -83,10 +82,10 @@ const Projects = () => {
           <div className="project__text">
             <h4>Student Tracker</h4>
             <p>
-              Student tracker website to keep the record of students journey
-              through the course. Where i can see details of all
-              students,history of gradute students and also you can see students
-              according to blocks.
+              Student tracker website to record a students journey through the
+              course. Where you can see details of current students, history of
+              gradute students and also you can see students according to
+              blocks.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -110,10 +109,9 @@ const Projects = () => {
           <div className="project__text">
             <h4>Weather App</h4>
             <p>
-              It is react single page app. where user can see temperature and
-              forcast details of current day after enter their city and he can
-              also see the graph of temperature and wind of day. i used Open
-              weather api .
+              It is single page react app, where the user can see temperature
+              and forcast details of current day for their city. I used Open
+              weather api.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">
@@ -136,12 +134,12 @@ const Projects = () => {
         <div className="project">
           <img src={cat} alt="no image"></img>
           <div className="project__text">
-            <h4>Charity Bay</h4>
+            <h4>CatWiki</h4>
             <p>
-              It is a web based cats app.Where user can see most populer cats.
-              This application/site was created as a submission to a 
-              <a href=""> DevChallenges </a> challenge. The challenge was to build
-              an application to complete the given user stories.
+              It is a web based cats app. The user can the see most popular
+              cats. This application/site was created as a submission to a
+              <a href=""> DevChallenges </a> challenge. The challenge was to
+              build an application to complete the given user stories.
             </p>
             <h4>Tech</h4>
             <ul className="project__list">

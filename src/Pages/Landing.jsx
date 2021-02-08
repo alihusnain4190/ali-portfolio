@@ -6,8 +6,8 @@ const Landing = () => {
     <section className="landing">
       <div className="landing__wrapper">
         <img className="landing__image" src={ali} alt="ali image" />
-        <h1 className="h1">Hy I am Ali husnain</h1>
-        <p>I am junior web developer!</p>
+        <h1 className="h1">Hi! I'm Ali Husnain</h1>
+        <p>I'm a junior web developer!</p>
         <div className="landing__social">
           <ul className="aside__ul">
             <li>
@@ -22,8 +22,8 @@ const Landing = () => {
               </a>
             </li>
             <li>
-               <a href="https://www.linkedin.com/in/ali-husnain-94a13a1b8/">
-              <i class="fab fa-linkedin-in"></i>
+              <a href="https://www.linkedin.com/in/ali-husnain-94a13a1b8/">
+                <i class="fab fa-linkedin-in"></i>
               </a>
             </li>
           </ul>
